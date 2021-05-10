@@ -19,7 +19,8 @@ public class MemberDemo {
 	
 	/*public static void print(String name, String email, 
 	 * String zipcode, String adrr1, 
-	 * String adrr2, int age) {}*/
+	 * String adrr2, int age) {}
+	 * 너무 길다 위의 Member m으로 해서*/
 	
 	public static void main(String[] args) {
 	Member m= new Member();
@@ -30,7 +31,6 @@ public class MemberDemo {
 	m.setAdrr1("서울시 강남구 대치동");
 	m.setAdrr2("xxx");
 	m.setAge(10);
-	
 	
 	print(m);
 	
