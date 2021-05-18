@@ -24,6 +24,7 @@ public class MemberDemo {
 	
 	public static void main(String[] args) {
 	Member m= new Member();
+	//setter은 인서턴스 변수를 변경하기 위해!
 	//m.name="이수연"
 	m.setName("이수연");
 	m.setEmail("abd@abc.com");

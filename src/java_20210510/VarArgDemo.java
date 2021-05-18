@@ -4,7 +4,7 @@ public class VarArgDemo {
 		public long sum(int...temp) {
 			long sum = 0;
 			for (int i=0; i<temp.length; i++) {
-				sum += temp[1];//배열의 두번자리 배열의 개수만큼 더해짐
+				sum += temp[1];//배열의 두번자리 배열의 개수만큼 더해짐  
 				
 			}
 			return sum;
